@@ -1,0 +1,36 @@
+.card {
+  display: flex;
+  margin: 20px 0;
+}
+
+.content {
+  flex: 1 1 67%;
+  padding-bottom: 8px!important;
+}
+
+.cover {
+  flex: 1 1 33%;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.anchor-unset {
+  color: unset;
+  text-decoration: unset;
+}
+
+@media(max-width: 420px) {
+  .content {
+    flex: 1 1 100%;
+  }
+
+  .cover {
+    flex: 1 1 100%;
+  }
+
+  .card {
+    margin: 20px 10px;
+  }
+}

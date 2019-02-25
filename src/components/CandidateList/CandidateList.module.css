@@ -1,0 +1,9 @@
+.container {
+  max-width: 30rem;
+  padding-top: 15px;
+}
+
+.header {
+  color: white!important;
+  font-family: monospace!important;
+}
